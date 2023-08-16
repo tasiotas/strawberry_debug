@@ -5,6 +5,7 @@ from strawberry_django.optimizer import DjangoOptimizerExtension
 from strawberry_django.relay import ListConnectionWithTotalCount
 
 
+#
 class User(models.Model):
     name = models.CharField(max_length=20)
 
