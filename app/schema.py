@@ -1,7 +1,6 @@
 import strawberry
-from django.db import models
-
 import strawberry_django
+from django.db import models
 from strawberry_django.optimizer import DjangoOptimizerExtension
 from strawberry_django.relay import ListConnectionWithTotalCount
 
